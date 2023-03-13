@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Third</title>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <label for="name">
+                Имя
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="email">
+                Почта
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="date">
+                Год рождения
+                <input type="date" name="date" id="date">
+            </label>
+            <label>
+                 Пол
+                <input type="radio" name="sex" value="male" id="male">
+                Мужчина
+                <input type="radio" name="sex" value="female" id="female">
+                Женщина
+            </label>
+            <label>
+                Кол-во конечностей
+                1
+                <input type="radio" name="limb" value="1" >
+                2
+                <input type="radio" name="limb" value="2" >
+                3
+                <input type="radio" name="limb" value="3" >
+                4
+                <input type="radio" name="limb" value="4" >
+            </label>
+            <label for="superpower">
+                Суперспособность
+                <select id="superpower" multiple name="superpower">
+                    <option value="immortality">Бессмертие</option>
+                    <option value="passing through walls">Прохождение сквозь стены</option>
+                    <option value="levitation">Левитация</option>
+                </select>
+            </label>
+            <label for="biography">
+                Биография
+                <textarea id="biography" name="biography" rows="10" cols="30"> </textarea>
+            </label>
+            <label for="access">
+                <input type="checkbox" name="access" id="access" required>
+                C контрактом ознакомлен
+            </label>
+            <button class="btn">Отправить</button>
+        </form>
+    </div>
+
+</body>
+</html>

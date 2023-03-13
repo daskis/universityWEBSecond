@@ -1,0 +1,11 @@
+form {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    justify-content: center;
+    align-items: start;
+}
+label {
+    margin: 10px 0;
+}
