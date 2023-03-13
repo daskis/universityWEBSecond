@@ -5,23 +5,31 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Second</title>
 </head>
 <body>
-
-    <div style="margin: 0 auto; max-width: 60%;">
-        <div>
-            GET HTTP/1.0
-            <img src="first.png">
-        </div>
-        <div>
-            GET HTTP/1.1
-            <img src="second.png">
-        </div>
-        <div>
-            Создание файла .tar.gz и определение его размера
-            <img src="third.png">
-        </div>
+<form method="post" action="files/index.php">
+    <input formmethod="post" type="text" placeholder="Комментарий" name="comment">
+    <button type="submit">Отправить</button>
+</form>
+<div>
+    <div>
+        GET HTTP/1.0
+        <img src="first.png">
     </div>
+    <div>
+        GET HTTP/1.1
+        <img src="second.png">
+    </div>
+    <div>
+        Создание файла .tar.gz и определение его размера
+        <img src="third.png">
+    </div>
+    <div>
+        Определение типа файла
+        <img src="fourth.png">
+    </div>
+</div>
 </body>
 </html>
